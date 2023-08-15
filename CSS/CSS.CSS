@@ -1,10 +1,13 @@
 .body{
 
-    background-color: aqua;
+    background-image: url("../openGraph.jpg");
+    background-size: auto;
+    background-position: center;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     text-align: center;
     text-decoration: none;
+    font-weight: 600;
 }
 
 .header{
