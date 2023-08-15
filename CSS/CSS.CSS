@@ -1,4 +1,5 @@
 .body{
+    cursor: url(%F0%9F%92%B8) pointer;
     background-color: aqua;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
