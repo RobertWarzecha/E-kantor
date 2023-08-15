@@ -160,6 +160,7 @@ max-width: 300px;
     margin-bottom: 30px;
     border-radius: 15px;
     margin-top: 15px;
+    margin: 0% auto;
 }
 .form__button3{
     background-color: rgb(255 125 0);
