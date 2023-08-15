@@ -1,0 +1,210 @@
+.body{
+    background-color: aqua;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+.header{
+    box-sizing: border-box;
+    background-color: rgb(255 125 0);
+    width: auto;
+    min-height: 100px;
+    border: 5px solid black;
+    border-radius: 15px;
+    margin: 15px;
+    padding: 20px 5px;
+    min-width: 300px;
+    
+}
+
+.navigation{
+    box-sizing: border-box;
+    display: block;
+    width: auto;
+    background-color: rgb(255 125 0);
+    min-height: 100px;
+    min-width: 300px;
+    border: 5px solid black;
+    border-radius: 15px;
+    margin: 15px;
+    padding: 20px 5px;
+}
+.navigation__boxInvisible{
+    float: left;
+    width: 4%;
+    height: 120px;
+    box-sizing: border-box;
+}
+
+.navigation__box{
+    box-sizing: border-box;
+    float: left;
+    background-color: hsla(180, 100%, 50%);
+    border: 5px solid black;
+    border-radius: 15px;
+    width: 28%;
+    height: 120px;
+    display: grid;
+    place-items: center;
+    font-size: 3.5vw;
+    font-weight: 600;
+    color: black;
+}
+.navigation__box:link{
+color: black;
+}
+.navigation__box:visited{
+    color: black;
+}
+.navigation__box:hover{
+    display: grid;
+    place-items: center;
+    font-size: 4vw;
+    color: black;
+    font-weight: 900;
+    background-color: rgb(255, 255, 255);
+}
+.navigation__box:active{
+    display: grid;
+    place-items: center;
+    font-size: 4vw;
+    color: black;
+    background-color: rgb(255 125 0);
+
+}
+
+.welcome{
+    box-sizing: border-box;
+    display: block;
+    text-decoration: none;
+    color: black;
+font-size: larger;
+margin-top: 65px;
+padding: 0px 20px;
+}
+
+.form__input{
+height: 30px;
+width: 100%;
+max-width: 300px;
+}
+
+.form__button{
+    background-color: rgb(255 125 0);
+    min-height: 170px;
+    border: 5px solid black;
+    width: 300px;
+    font-weight: 900;
+    font-size: 3.5vw;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+.welcome__hello{
+    padding: 0px 15px;
+    text-align: left;
+    font-size: 4vw;
+}
+
+.welcome__button.welcome__button
+{
+    color: black;
+    margin: 0px auto;
+    background-color: rgb(255 125 0);
+    min-height: 170px;
+    border: 5px solid black;
+    min-width: 300px;
+    width: 20%;
+    font-weight: 900;
+    font-size: 3.5vw;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    display: grid;
+    place-items: center;
+}
+
+.form__button:hover
+{
+    font-size: 4vw;
+}
+
+.welcome__button:hover
+{
+    font-size: 4vw;
+}
+.welcome__button:active
+{
+    
+    font-size: 4vw;
+    background-color: white;
+}
+.A.A{
+    text-decoration: none;
+}
+
+.form__kurs{
+    height: 30px;
+}
+
+.form__button2{
+    background-color: rgb(255 125 0);
+    min-height: 170px;
+    border: 5px solid black;
+    width: 300px;
+    font-weight: 900;
+    font-size: 3.5vw;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+.form__button3{
+    background-color: rgb(255 125 0);
+    min-height: 100px;
+    border: 5px solid black;
+    width: 300px;
+    font-weight: 900;
+    font-size: 3.5vw;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+.form__button2:hover
+{
+    font-size: 4vw;
+}
+.form__button3:hover
+{
+    font-size: 4vw;
+}
+.form__button2:active
+{
+    font-size: 4vw;
+    background-color: white;
+}
+.form__button3:active
+{
+    font-size: 4vw;
+    background-color: white;
+}
+.form__button:active
+{
+    font-size: 4vw;
+    background-color: white;
+}
+
+.endPrice{
+    font-size: 4vw;
+}
+
+.footer{
+    padding-top: 50px;
+    font-size: xx-large;
+    border-top: 5px solid black;
+    height: 130px;
+width: 100%;
+background-color: rgb(255 125 0);
+}
